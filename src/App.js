@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import UserList from 'UserList'
-import UserForm from 'UserForm'
-import logo from 'logo.svg'
-import 'App.css'
+import UserList from './UserList'
+import UserForm from './UserForm'
+import logo from './logo.svg'
+import './App.css'
 
 class App extends Component {
   constructor () {
     super()
     this.state = {
       users: [
-        {id: 1, name: 'miguel', email: 'miguelghz@miguelgomez.io'},
-        {id: 2, name: 'test', email: 'test@test.es'}
+        {id: 1, name: 'santi', email: 'snt.mv13@gmail.com'},
+        {id: 2, name: 'santi2', email: 'snt.v.01@gmail.com'}
       ]
     }
   }
